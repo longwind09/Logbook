@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.logbook.view"
+	android:versionCode="1"
+	android:versionName="1.0" >
+
+	<uses-sdk
+		android:minSdkVersion="11"
+		android:targetSdkVersion="18" />
+
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+	</uses-permission>
+
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+		android:theme="@android:style/Theme.Holo.Light" >
+		<activity
+			android:name="com.logbook.view.MainActivity"
+			android:label="@string/app_name"
+			android:theme="@android:style/Theme.Light.NoTitleBar" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name="com.logbook.view.OpenFileActivity"
+			android:label="@string/app_name" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.ManageTabActivity"
+			android:label="@string/title_activity_manage_tab" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.ManageDesignActivity"
+			android:label="@string/title_activity_manage_design" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.ManageProductActivity"
+			android:label="@string/title_activity_manage_product" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.ManageParameterActivity"
+			android:label="@string/title_activity_parameter" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.ManageAncillaryActivity"
+			android:label="@string/title_activity_ancillary" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.AcceptanceActivity"
+			android:label="@string/title_activity_acceptance" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.ProductFirstpageActivity"
+			android:label="@string/title_activity_firstpage" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.AssembleRecordActivity"
+			android:label="@string/title_activity_assemble_record" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.DisassembleRecordActivity"
+			android:label="@string/title_activity_disassemble_record" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.CheckAndRepairRecordActivity"
+			android:label="@string/title_activity_check_and_repair_record" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.PerformanceCheckRecordActivity"
+			android:label="@string/title_activity_performance_check_record" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.PreservationRecordActivity"
+			android:label="@string/title_activity_preservation_record" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.ReadTabActivity"
+			android:label="@string/title_activity_read_tab" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.ReadDesignActivity"
+			android:label="@string/title_activity_read_design" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.ReadProductActivity"
+			android:label="@string/title_activity_read_product" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.ConfigActivity"
+			android:label="@string/title_activity_config" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.ManageDesignCatalogActivity"
+			android:label="@string/title_activity_manage_design_catalog" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.ManageProductCatalogActivity"
+			android:label="@string/title_activity_manage_product_catalog" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.ManageBaseInfomationActivity"
+			android:label="@string/title_activity_manage_base_infomation" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.ManageLifeActivity"
+			android:label="@string/title_activity_manage_life" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.ManageUseMaintainActivity"
+			android:label="@string/title_activity_manage_use_maintain" >
+		</activity>
+		<activity
+			android:name="com.logbook.view.DesignFirstpageActivity"
+			android:label="@string/title_activity_design_firstpage" >
+		</activity>
+	</application>
+
+</manifest>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<TextView
+		android:id="@+id/manage"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/read"
+		android:layout_alignParentLeft="true"
+		android:gravity="center"
+		android:height="60dp"
+		android:text="@string/mgmt_mode"
+		android:background="@drawable/setbar_bg"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<TextView
+		android:id="@+id/read"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginBottom="80dp"
+		android:gravity="center"
+		android:height="60dp"
+		android:text="@string/read_mode"
+		android:background="@drawable/setbar_bg"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<ImageView
+		android:id="@+id/imageView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="32dp"
+		android:contentDescription="@string/content_1"
+		android:src="@drawable/avic" />
+
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/imageView1"
+		android:layout_marginTop="32dp"
+		android:gravity="center"
+		android:layout_centerHorizontal="true"
+		android:text="@string/logbook"
+		android:textSize="40dp"
+		android:textStyle="bold" />
+
+</RelativeLayout>

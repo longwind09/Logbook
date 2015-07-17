@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearLayout_read_design"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:id="@+id/linearLayout_search"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+		android:orientation="horizontal"
+		android:background="@drawable/setbar_bg"
+		 >
+
+		<EditText
+			android:id="@+id/searchEditText"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="查找"
+			android:textSize="15sp"
+			android:paddingLeft="20dp"
+			android:singleLine="true"
+			android:layout_weight="1" />
+
+		<Button
+			android:id="@+id/imgBtn_search"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:contentDescription="TODO"
+			android:textSize="15sp"
+			android:text="确定" 
+			android:layout_weight="5"/>
+	</LinearLayout>
+
+</LinearLayout>

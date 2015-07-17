@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">logbook</string>
+	<string name="action_settings">设置</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="mgmt_mode">管理模式</string>
+	<string name="design">设计</string>
+	<string name="product">产品</string>
+	<string name="read_mode">查看模式</string>
+	<string name="title_activity_read">阅读模式</string>
+	<string name="content_1">pic_logo</string>
+	<string name="logbook">履    历    本</string>
+	<string name="skan_files">浏 览 文 件</string>
+	<string name="title_activity_tabhost">Tabhost</string>
+	<string name="title_activity_parameter">简要技术性能</string>
+	<string name="parameter_head">简要技术性能</string>
+	<string name="parameter_menu_add">添加</string>
+	<string name="title_activity_ancillary">配套</string>
+	<string name="ancillary">配套</string>
+	<string name="title_activity_acceptance">验收</string>
+	<string name="acceptance_head">验收证明</string>
+	<string name="acceptance_qulified">本产品经检查验收合格，可交付使用</string>
+	<string name="acceptance_guaranteeTime">保证期：</string>
+	<string name="title_activity_assemble_record">安装</string>
+	<string name="title_activity_disassemble_record">拆卸</string>
+	<string name="title_activity_check_and_repair_record">检修</string>
+	<string name="title_activity_performance_check_record">性能检查</string>
+	<string name="title_activity_preservation_record">贮藏</string>
+	<string name="button">Button</string>
+	<string name="title_activity_read_tab">查看模式</string>
+	<string name="title_activity_read_design">查看设计</string>
+	<string name="title_activity_read_product">查看出厂</string>
+	<string name="title_activity_manage_tab">管理模式</string>
+	<string name="title_activity_manage_design">管理设计</string>
+	<string name="title_activity_manage_product">管理出厂</string>
+	<string name="title_activity_config">设置</string>
+	<string name="title_activity_manage_design_catalog">设计目录</string>
+	<string name="title_activity_manage_product_catalog">产品目录</string>
+	<string name="title_activity_manage_base_infomation">基本信息</string>
+	<string name="title_activity_manage_life">寿命可靠性</string>
+	<string name="title_activity_manage_use_maintain">使用维护</string>
+	<string name="title_activity_design_firstpage">设计数据</string>
+	<string name="title_activity_firstpage">首页</string>
+
+</resources>
